@@ -1,2 +1,3 @@
 # Hasher
-Secure your messages using this hashing algorithm
+## Secure your messages using this hashing algorithm
+
