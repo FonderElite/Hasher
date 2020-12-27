@@ -15,6 +15,8 @@ print(Fore.CYAN + '''
 ░░░░░   ░░░░░  ░░░░░░░░ ░░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░     
 
 ''')
+work = os.getcwd()
+print("Current Directory:" + work)
 time.sleep(2)
 print(Fore.YELLOW + 'Made By FonderElite || Droid')
 print("Visit My Github Page: https://github.com/FonderElite")
