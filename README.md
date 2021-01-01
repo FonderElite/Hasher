@@ -42,7 +42,7 @@ Warrior requires the pycrypto library and requests, installation below
 - [x] Works even without internet connection.
 - [x] Works efficiently
 - [x] Supported on all platforms & devices
-** New Hashing With SHA-256.salt
+
 
 # Update:
-* Added 6 new malwares for windows (12/30/20)
+* Added 1  New Salt Hash With SHA-256.salt (12/30/20)
