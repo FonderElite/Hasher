@@ -20,8 +20,8 @@ print(Fore.CYAN + '''
 work = os.getcwd()
 print("Current Directory:" + work)
 time.sleep(2)
-print(Fore.MAGENTA  + wi + 'Made By FonderElite || Droid')
-print(Fore.MAGENTA + wi + "Visit My Github Page: https://github.com/FonderElite")
+print(Fore.MAGENTA  + 'Made By FonderElite || Droid')
+print(Fore.MAGENTA + "Visit My Github Page: https://github.com/FonderElite")
 help = print(Fore.GREEN + wi + '''
 =============================================
 +|   Hashing Algorithm using Python        |+
@@ -39,7 +39,7 @@ help = print(Fore.GREEN + wi + '''
  Available Hashes:[SHA1,MD5,MD4,SHA224,SHA256,SHA384,SHA512,WHIRLPOOL,DSA-SHA,MDC2]
  =======================================================''')
 print(Fore.GREEN + wi + " Available Salts:[SHA256.salt]")
-print(Fore.MAGENTA + wi + "Command For Salting > Ex. $user@ubuntu:" + Fore.YELLOW + "Salt")
+print(Fore.MAGENTA + "Command For Salting > Ex. $user@ubuntu:" + Fore.YELLOW + "Salt")
 
 
 def skull():
