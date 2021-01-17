@@ -5,7 +5,7 @@ import uuid
 from colorama import Fore, Back, Style
 import hashlib, bcrypt
 import  sys
-
+wi = Fore.WHITE
 print(Fore.CYAN + '''
  █████   █████                   █████                        
 ░░███   ░░███                   ░░███                         
@@ -20,9 +20,9 @@ print(Fore.CYAN + '''
 work = os.getcwd()
 print("Current Directory:" + work)
 time.sleep(2)
-print(Fore.MAGENTA  + 'Made By FonderElite || Droid')
-print(Fore.MAGENTA + "Visit My Github Page: https://github.com/FonderElite")
-help = print(Fore.GREEN + '''
+print(Fore.MAGENTA  + wi + 'Made By FonderElite || Droid')
+print(Fore.MAGENTA + wi + "Visit My Github Page: https://github.com/FonderElite")
+help = print(Fore.GREEN + wi + '''
 =============================================
 +|   Hashing Algorithm using Python        |+
 =============================================
@@ -38,8 +38,8 @@ help = print(Fore.GREEN + '''
  =======================================================
  Available Hashes:[SHA1,MD5,MD4,SHA224,SHA256,SHA384,SHA512,WHIRLPOOL,DSA-SHA,MDC2]
  =======================================================''')
-print(Fore.GREEN + " Available Salts:[SHA256.salt]")
-print(Fore.MAGENTA + "Command For Salting > Ex. $user@ubuntu:" + Fore.YELLOW + "Salt")
+print(Fore.GREEN + wi + " Available Salts:[SHA256.salt]")
+print(Fore.MAGENTA + wi + "Command For Salting > Ex. $user@ubuntu:" + Fore.YELLOW + "Salt")
 
 
 def skull():
@@ -67,8 +67,8 @@ Dont be a Script Kiddie.
         ''')
 
 #command = print(Fore.MAGENTA + "[+]Input a command: ")
-tohash = input(Fore.RED + "Input a string to hash/salt: ")
-hashing = print("Choose  your preffered hashing type: ")
+tohash = input(Fore.RED + wi + "Input a string to hash/salt: ")
+hashing = print(wi + "Choose  your preffered hashing type: ")
 salting = "Available Salts:[SHA256]"
 chosen = input("")
 time.sleep(1)
