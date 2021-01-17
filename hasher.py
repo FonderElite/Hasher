@@ -181,7 +181,7 @@ def mdc2():
     hashed10 = hash_object10.hexdigest()
     print(hashed10)
 if chosen == "SHA1":
-    print("SHA-1(Hashed Text Below)")
+    print(Fore.CYAN + "SHA-1(Hashed Text Below)")
     sha1()
     print(Fore.MAGENTA + '''
      |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -193,7 +193,7 @@ if chosen == "SHA1":
             ''')
 
 elif chosen == "MD5":
-    print("MD5(Hashed Text Below)")
+    print(Fore.CYAN + "MD5(Hashed Text Below)")
     md5()
     print(Fore.MAGENTA + '''
      |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -204,7 +204,7 @@ elif chosen == "MD5":
     / 　 づ
             ''')
 elif chosen == "SHA256":
-    print("SHA-256(Hashed Text Below)")
+    print(Fore.CYAN + "SHA-256(Hashed Text Below)")
     sha256()
     print(Fore.MAGENTA + '''
      |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -215,7 +215,7 @@ elif chosen == "SHA256":
     / 　 づ
             ''')
 elif chosen == "SHA224":
-    print("SHA-224(Hashed Text Below)")
+    print(Fore.CYAN + "SHA-224(Hashed Text Below)")
     sha224()
     print(Fore.MAGENTA + '''
      |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -226,7 +226,7 @@ elif chosen == "SHA224":
     / 　 づ
             ''')
 elif chosen == "SHA512":
-    print('SHA-512(Hashed Text Below)')
+    print(Fore.CYAN + 'SHA-512(Hashed Text Below)')
     sha512()
     print(Fore.MAGENTA + '''
       |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -238,7 +238,7 @@ elif chosen == "SHA512":
              ''')
 
 elif chosen == "SHA384":
-    print('SHA-384(Hashed Text Below)')
+    print(Fore.CYAN + 'SHA-384(Hashed Text Below)')
     sha384()
     print(Fore.MAGENTA + '''
       |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -249,7 +249,7 @@ elif chosen == "SHA384":
      / 　 づ
     ''')
 elif chosen == "MD4":
-    print('MD4(Hashes Text Below)')
+    print(Fore.CYAN + 'MD4(Hashes Text Below)')
     md4()
     print(Fore.MAGENTA + '''
           |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -260,7 +260,7 @@ elif chosen == "MD4":
          / 　 づ
         ''')
 elif chosen == "WHIRLPOOL":
-    print('WHIRLPOOL(Hashes Text Below)')
+    print(Fore.CYAN + 'WHIRLPOOL(Hashes Text Below)')
     whirlpool()
     print(Fore.MAGENTA + '''
               |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -271,7 +271,7 @@ elif chosen == "WHIRLPOOL":
              / 　 づ
             ''')
 elif chosen == "DSASHA":
-    print('DSA-SHA(Hashes Text Below)')
+    print(Fore.CYAN + 'DSA-SHA(Hashes Text Below)')
     dsasha()
     print(Fore.MAGENTA + '''
                   |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -282,7 +282,7 @@ elif chosen == "DSASHA":
                  / 　 づ
                 ''')
 elif chosen == "MDC2":
-    print('MDC2(Hashes Text Below)')
+    print(Fore.CYAN + 'MDC2(Hashes Text Below)')
     mdc2()
     print(Fore.MAGENTA + '''
                      |￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
@@ -293,7 +293,7 @@ elif chosen == "MDC2":
                     / 　 づ
                    ''')
 elif salting() == "SHA256.salt":
-    print("SHA-256.salt(Hashed Text Below)")
+    print(Fore.CYAN + "SHA-256.salt(Hashed Text Below)")
     print(Fore.MAGENTA + '''
    __       _
 o-''))_____//   Dont Be a Script Kiddie 
