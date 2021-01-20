@@ -67,7 +67,7 @@ Dont be a Script Kiddie.
         ''')
 
 #command = print(Fore.MAGENTA + "[+]Input a command: ")
-tohash = input(Fore.RED + wi + "Input a string to hash/salt: ")
+tohash = input(Fore.YELLOW + "Input a string to hash/salt: ")
 hashing = print(wi + "Choose  your preffered hashing type: ")
 salting = "Available Salts:[SHA256]"
 chosen = input("")
